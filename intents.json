@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag":"greeting",
+      "patterns":["Hey","Hello","Olá","Hi","Fala mano","E ai meu parceiro"],
+      "responses":["Hello!"]
+    },
+    {
+      "tag":"create_note",
+      "patterns":["I want to create a note","new note","Criar nota","create a new note","create a note"],
+      "responses":[""]
+    },
+    {
+      "tag":"add_todo",
+      "patterns":["I want to add a todo","add a new todo","add a todo to my list","adicionar na lista"],
+      "responses":[""]
+    },
+    {
+      "tag":"show_todo",
+      "patterns":["Show my to do","Mostra minha lista","Show my to do list"],
+      "responses":[""]
+    },
+    {
+      "tag":"exit",
+      "patterns":["bye","quit","exit"],
+      "responses":[""]
+    }
+  ]
+}
